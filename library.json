@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "version": "1.0.1",
+    "name": "AW9364-ESP32",
+    "description": "Awinic AW9364 Driver for ESP-IDF v6.1",
+    "license": "Apache-2.0",
+    "authors": {
+        "name": "Kitki30",
+        "email": "kitki30@kitki30.com",
+        "maintainer": true
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kitki30/aw9364"
+    },
+    "keywords": [
+        "aw9364", "esp32",
+        "esp-idf", "led-driver",
+        "led", "tembed"
+    ],
+    "frameworks": ["espidf", "arduino"],
+    "platforms": ["espressif32"]
+}
