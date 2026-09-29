@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
     "version": "1.0.1",
-    "name": "AW9364-ESP32",
+    "name": "aw9364",
     "description": "Awinic AW9364 Driver for ESP-IDF v6.1",
     "license": "Apache-2.0",
     "authors": {

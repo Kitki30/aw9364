@@ -5,6 +5,14 @@ Simple driver for AW9364 LED controller, used in T-Embed CC1101's
 ## Instalation
 Requires C++ compiler.
 
+### PlatformIO install
+Add following line into your lib_deps in platformio.ini
+```ini
+lib_deps = 
+    kitki30/aw9364@^1.0.1
+```
+
+### Standard install
 Copy this repo to your libraries folder (e.g. /lib/aw9364)
 
 Paste following code into your main CMakeLists.txt
@@ -16,7 +24,7 @@ Replace path with aw9364 lib directory location
 
 ## Usage example
 ```cpp
-#include "lib/aw9364/aw9364.hpp"
+#include "aw9364.hpp"
 #include "soc/gpio_num.h"
 
 AW9364 aw9364;
