@@ -1,5 +1,5 @@
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/kitki30/library/aw9364.svg)](https://registry.platformio.org/libraries/kitki30/aw9364)
 # AW9364 Library
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/kitki30/library/aw9364.svg)](https://registry.platformio.org/libraries/kitki30/aw9364)
 
 Simple driver for AW9364 LED controller, used in T-Embed CC1101's
 
